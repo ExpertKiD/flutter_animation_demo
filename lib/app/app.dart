@@ -1,4 +1,4 @@
-import 'package:animationdemo/screen/animation_controller.dart';
+import 'package:animationdemo/screen/tween_animation.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: AnimationControllerScreen(),
+      home: TweenAnimationScreen(),
     );
   }
 }
